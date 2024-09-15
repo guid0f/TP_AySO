@@ -1,0 +1,153 @@
+cd repogit
+cd repo_falcone/
+git status
+git add .
+git commit -m "mi primer commit"
+git config --global user.name "guid0f"
+clear
+exit
+ls
+whoami
+pwd
+echo
+echo"hola"
+echo "hola"
+echo $home
+$echo &HOME
+echo $HOME
+man echo
+man man
+cd repogit
+ls
+git clone https://github.com/guid0f/repo_falcone.git
+ls
+cd repo_falcone/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+ls
+git status
+clear
+git status
+git add .
+git satatus
+git status
+git commit -m "Primer commit"
+pwd
+ls
+cd repogit
+pwd
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit/
+ls
+rm -r repo_falcone/
+sudo rm -r repo_falcone/
+ls
+ls -l
+pwd
+git clone git@github.com:guid0f/repo_falcone.git
+ls
+ls -l
+cd repo_falcone/
+echo "hola" > hola.txt
+ls
+git status
+git add . 
+git status
+=git commit -m "primer commit"
+git commit -m "primer commit"
+git push 
+cat /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+tail -n3 /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep -n bash /etc/passwd > archivo2.txt
+ls -l
+cat archivo2.txt
+ls
+cpuinfo
+cat proc/cpuinfo
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+exit
+pwd
+ls
+cd repogit
+pwd
+ls
+cd ..
+pwd
+ssh -keygen -t ed25516
+ssh-keygen -t ed25516
+pwd
+ls
+cd repogit
+ls
+pwd
+cd
+pwd
+cd repogit/
+git clone git@github.com:guid0f/TP_AySO.git
+pwd
+ls
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grepHOME_URL/etc/os-release
+grephome_url /etc/os-release
+grep home_url /etc/os-release
+grephome_url /etc/os-release
+grep -i "home_url" /etc/os-release
+whoami
+echo“Usuario=$(whoami)”>datos_usuario.txt
+echo “Usuario=$(whoami)”>datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+ls
+git add .
+git commit -m "ADD:agregado1erejercicio sobredatos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add . 
+git commit -m “feat:AñadiendoinformacióndeCPU”
+grep -v nologin /etc/passwd | head -n 10 > lista_ordenada
+sort -t ":" -k7 lista_ordenada -o lista_ordenada 
+cat datos_usuario.txt 
+cat lista_ordenada 
+git add .
+git commit -m “ADD: Listado de usuarios ordenada”
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos "dump traffic" > comando_dump_net
+echo "Comando para realizar dump traffic: tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Archivo con comandos para realizar dump traffic"
+cat << FIN > README.md  
+Alumno: <Guido-Falcone>  
+División: <Div-311>  
+Turno: <Noche>  
+FIN
+
+git add README.md
+git commit -m "docs: Agregar información del alumno en README.md"
+history -a $HOME/.bash_history
